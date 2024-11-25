@@ -1,0 +1,19 @@
+scan-for-vegetarian-diet/
+│
+├── app.js                # Main server file
+├── routes/               # API routes
+│   ├── users.js          # User login/register routes
+│   └── scan.js           # Scan routes
+├── models/               # Mongoose models
+│   └── user.js           # User model
+├── views/                # Frontend HTML files
+│   ├── login.html        # Login page
+│   └── home.html         # Home page with scan functionality
+├── public/               # Frontend static files (CSS, images, JavaScript)
+│   └── styles.css        # Stylesheet for the frontend
+├── scripts/              # Python scripts for ingredient scanning
+│   └── scan.py           # Python script to check vegetarian ingredients
+├── node_modules/         # Node.js dependencies
+├── package.json          # Node.js project info and dependencies
+├── package-lock.json     # Exact version of installed dependencies
+└── .gitignore            # To ignore unnecessary files like node_modules
