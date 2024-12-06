@@ -6,6 +6,8 @@ vegetarian_ingredients = [
     "tomato", "lettuce", "spinach", "carrot", "apple", "rice"
 ]
 
+
+
 def check_vegetarian(ingredients):
     ingredients = json.loads(ingredients)
     for ingredient in ingredients:
