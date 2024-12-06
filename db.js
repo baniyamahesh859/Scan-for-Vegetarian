@@ -2,8 +2,8 @@ const mysql = require('mysql');
 
 const db = mysql.createConnection({
   host: 'localhost',
-  user: 'root',         // Replace with your MySQL username
-  password: '',         // Replace with your MySQL password
+  user: 'root',       
+  password: 'mk112233',        
   database: 'ScanForVeg',
 });
 
